@@ -1,0 +1,19 @@
+package com.shiva.bindings;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User {
+	private String pid;
+	private String pname;
+	private String pemail;
+	private String pcontact;
+	private String username;
+	private String password;
+	
+
+}

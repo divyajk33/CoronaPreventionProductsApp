@@ -1,0 +1,109 @@
+.main-content{
+	width:50% !important;
+	height:80% !important;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 59px 9px rgba(27,82,79,1);
+-moz-box-shadow: 1px 1px 59px 9px rgba(27,82,79,1);
+box-shadow: 1px 1px 59px 9px rgba(27,82,79,1);
+margin-top:5em !important;
+margin-bottom:5em !important;
+margin-left:25em !important;
+margin-right:25em !important;
+justify-content: center;
+	display: flex;
+	
+	
+}
+
+.input_form{
+padding:5em;
+}	
+	 
+	 
+
+body{
+	 background-image: url('images/bg-blue.jpg');
+	 background-repeat: no-repeat; 
+    background-position: fixed; 
+    background-size: 100% 100% !important;
+}
+
+	 
+
+.company__info{
+	  background-image: url('images/corona1.png');
+	   background-repeat: no-repeat; 
+    background-position: fixed; 
+    background-size: 100% 100% !important;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	
+	color: #fff;
+}
+
+
+.row > h2{
+	color:#008080;
+}
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:10px !important;
+	border-bottom-right-radius:10px !important;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 2em 2em;
+}
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 100%;
+	border-radius: 30px;
+	color:#fff;
+	font-weight: 800;
+	background-color:#008080 ;
+	border: 1px solid #008080;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	
+	
+}
+.btn:hover, .btn:focus{
+	background-color: black;
+
+	color:#fff;
+}
+
+.button{
+	transition: all .5s ease;
+	width: 70%;
+	border-radius: 30px;
+	color:#008080;
+	font-weight: 800;
+	background-color: #fff;
+	
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.button:hover, .button:focus{
+	background-color: #008080;
+	color:#fff;
+}
